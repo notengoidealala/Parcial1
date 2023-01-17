@@ -34,7 +34,10 @@ text-decoration: none;
 
 
 ul {
-
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
 }
 
 /*  Agrega código css para que los elementos de 
@@ -42,7 +45,8 @@ ul {
 
 */
 li{
-
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
@@ -53,7 +57,7 @@ li{
   @media (min-width: 768px)  {
     
     ul {
-
-  }
-  
+      display: flex;
+      flex-direction: row;
+      } 
 }
